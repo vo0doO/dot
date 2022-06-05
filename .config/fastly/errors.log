@@ -1,0 +1,1516 @@
+
+COMMAND:
+fastly 
+
+TIMESTAMP:
+2022-06-04 16:29:53.1432122 +0300 MSK m=+0.258505601
+
+ERROR:
+open /home/vo0u/.config/fastly/config.toml: no such file or directory
+
+FILE:
+/pkg/config/data.go
+
+LINE:
+444
+
+
+TIMESTAMP:
+2022-06-04 16:29:53.2012761 +0300 MSK m=+0.316566401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-04 16:29:53.639402 +0300 MSK m=+0.755169901
+
+ERROR:
+command not specified
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute init --from=https://fiddle.fastlydemo.net/fiddle/b485866f
+
+TIMESTAMP:
+2022-06-04 23:14:12.5444586 +0300 MSK m=+0.360328501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-04 23:15:07.0026833 +0300 MSK m=+54.819615501
+
+ERROR:
+stat https://fiddle.fastlydemo.net/fiddle/b485866f: no such file or directory
+
+FILE:
+/pkg/commands/compute/init.go
+
+LINE:
+532
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-04 23:39:16.7622264 +0300 MSK m=+16.785494201
+
+ERROR:
+no token provided
+
+FILE:
+/pkg/commands/compute/publish.go
+
+LINE:
+130
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile
+
+TIMESTAMP:
+2022-06-04 23:39:32.3832381 +0300 MSK m=+0.962624301
+
+ERROR:
+must select a subcommand of 'profile'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly serve
+
+TIMESTAMP:
+2022-06-04 23:45:48.3053763 +0300 MSK m=+1.195943401
+
+ERROR:
+expected command but got serve
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly completions
+
+TIMESTAMP:
+2022-06-04 23:46:44.5645754 +0300 MSK m=+0.864936901
+
+ERROR:
+expected command but got completions
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly completion
+
+TIMESTAMP:
+2022-06-04 23:46:48.255268 +0300 MSK m=+0.883499601
+
+ERROR:
+expected command but got completion
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile
+
+TIMESTAMP:
+2022-06-04 23:47:32.2287989 +0300 MSK m=+0.976751301
+
+ERROR:
+must select a subcommand of 'profile'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-04 23:51:25.8441186 +0300 MSK m=+7.066438401
+
+ERROR:
+fork/exec /home/vo0u/.config/fastly/viceroy: no such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-04 23:51:41.2712511 +0300 MSK m=+22.492626501
+
+ERROR:
+error during execution process:
+
+qemu-aarch64: Could not open '/lib/ld-linux-aarch64.so.1': No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-04 23:53:34.2520605 +0300 MSK m=+6.513817101
+
+ERROR:
+exit status 255
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-04 23:53:44.6476915 +0300 MSK m=+16.909450301
+
+ERROR:
+error during execution process:
+
+qemu-aarch64: Could not open '/lib/ld-linux-aarch64.so.1': No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-04 23:54:37.080201 +0300 MSK m=+7.070617601
+
+ERROR:
+exit status 255
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-04 23:54:50.5693045 +0300 MSK m=+20.559722801
+
+ERROR:
+error during execution process:
+
+qemu-aarch64: Could not open '/lib/ld-linux-aarch64.so.1': No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-04 23:57:24.6795838 +0300 MSK m=+7.649641501
+
+ERROR:
+exit status 255
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-04 23:57:31.6452545 +0300 MSK m=+14.612578101
+
+ERROR:
+error during execution process:
+
+qemu-aarch64: Could not open '/lib/ld-linux-aarch64.so.1': No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-04 23:57:52.6201544 +0300 MSK m=+6.730176301
+
+ERROR:
+exit status 255
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-04 23:58:00.5837667 +0300 MSK m=+14.694522701
+
+ERROR:
+error during execution process:
+
+qemu-aarch64: /lib/ld-linux-aarch64.so.1: Invalid ELF image for this architecture
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 00:05:08.2240099 +0300 MSK m=+7.585059301
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:05:19.1719071 +0300 MSK m=+18.532957101
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 00:07:16.9879921 +0300 MSK m=+6.754443901
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:07:27.4638651 +0300 MSK m=+17.230318101
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 00:08:27.2655252 +0300 MSK m=+6.792299601
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:08:35.8618875 +0300 MSK m=+15.389068801
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve -d
+
+TIMESTAMP:
+2022-06-05 00:13:18.6627663 +0300 MSK m=+6.555851501
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:13:28.2650739 +0300 MSK m=+16.158159301
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 00:13:47.0864819 +0300 MSK m=+0.869821601
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:14:00.4546266 +0300 MSK m=+14.237441501
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 00:15:19.8250422 +0300 MSK m=+1.051777401
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 00:15:32.9372867 +0300 MSK m=+14.164368601
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 01:25:11.9910804 +0300 MSK m=+1.981405301
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 01:25:22.8292833 +0300 MSK m=+12.819607401
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 03:30:42.8276941 +0300 MSK m=+2.045857601
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 03:30:51.4771471 +0300 MSK m=+10.695312101
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:24:26.337552 +0300 MSK m=+1.565886901
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:24:33.5744673 +0300 MSK m=+8.802802201
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 04:34:58.1240786 +0300 MSK m=+0.744470301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 04:36:25.2755948 +0300 MSK m=+0.448197601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:36:56.000449 +0300 MSK m=+0.603445601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:37:01.4044278 +0300 MSK m=+0.608633401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly update
+
+TIMESTAMP:
+2022-06-05 04:37:08.6012042 +0300 MSK m=+0.906881801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash update
+
+TIMESTAMP:
+2022-06-05 04:37:15.9079558 +0300 MSK m=+1.306256001
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash update
+
+TIMESTAMP:
+2022-06-05 04:37:19.5111078 +0300 MSK m=+1.300837501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash update
+
+TIMESTAMP:
+2022-06-05 04:37:22.4887885 +0300 MSK m=+1.171189901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly update
+
+TIMESTAMP:
+2022-06-05 04:37:25.4819788 +0300 MSK m=+0.737990101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:37:34.6525638 +0300 MSK m=+0.643681101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:37:38.6590677 +0300 MSK m=+0.556578601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly acl
+
+TIMESTAMP:
+2022-06-05 04:37:41.3244519 +0300 MSK m=+0.351385901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 04:37:41.8684932 +0300 MSK m=+0.895429201
+
+ERROR:
+must select a subcommand of 'acl'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:37:54.8393869 +0300 MSK m=+0.366873801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:37:56.7860171 +0300 MSK m=+0.373349401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash purge
+
+TIMESTAMP:
+2022-06-05 04:38:10.5367897 +0300 MSK m=+0.547040801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly purge
+
+TIMESTAMP:
+2022-06-05 04:38:13.0786619 +0300 MSK m=+0.348367801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 04:38:13.5201609 +0300 MSK m=+0.789868201
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:38:19.6348559 +0300 MSK m=+0.354006901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:38:21.6563912 +0300 MSK m=+0.351106901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute se
+
+TIMESTAMP:
+2022-06-05 04:38:40.2872663 +0300 MSK m=+0.487973501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve
+
+TIMESTAMP:
+2022-06-05 04:38:42.0167736 +0300 MSK m=+0.354657701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/P
+
+TIMESTAMP:
+2022-06-05 04:38:52.9556202 +0300 MSK m=+0.453650401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/P
+
+TIMESTAMP:
+2022-06-05 04:38:53.9149951 +0300 MSK m=+0.346220901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/P
+
+TIMESTAMP:
+2022-06-05 04:38:55.1326698 +0300 MSK m=+0.381289001
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/Pr
+
+TIMESTAMP:
+2022-06-05 04:38:57.1011594 +0300 MSK m=+0.380679301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/Pr
+
+TIMESTAMP:
+2022-06-05 04:38:58.0661102 +0300 MSK m=+0.359234201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash compute serve ~/Pr
+
+TIMESTAMP:
+2022-06-05 04:38:59.2698092 +0300 MSK m=+0.350108701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:39:28.5043005 +0300 MSK m=+0.979176201
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:39:35.5866985 +0300 MSK m=+8.061574801
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:40:38.1457531 +0300 MSK m=+0.864630501
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:40:45.3394637 +0300 MSK m=+8.058340901
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:41:49.8821211 +0300 MSK m=+3.269981101
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:42:02.2286449 +0300 MSK m=+15.616505201
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 04:44:05.6404125 +0300 MSK m=+0.384944301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:52:11.0910447 +0300 MSK m=+3.381578601
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:52:25.743332 +0300 MSK m=+18.033866301
+
+ERROR:
+error during execution process:
+
+/home/vo0u/.config/fastly/viceroy: error while loading shared libraries: libgcc_s.so.1: cannot open shared object file: No such file or directory
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:53:03.554017 +0300 MSK m=+0.017992801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash
+
+TIMESTAMP:
+2022-06-05 04:53:04.7758358 +0300 MSK m=+0.020319501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly update
+
+TIMESTAMP:
+2022-06-05 04:53:13.7649 +0300 MSK m=+0.047899401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --skip-build
+
+TIMESTAMP:
+2022-06-05 04:54:04.8633205 +0300 MSK m=+0.060194301
+
+ERROR:
+exit status 127
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+194
+
+
+TIMESTAMP:
+2022-06-05 04:54:26.168656 +0300 MSK m=+21.366460401
+
+ERROR:
+error during execution process:
+     
+
+signal: interrupt
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 04:54:40.0163383 +0300 MSK m=+0.014973101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 05:07:27.3061126 +0300 MSK m=+0.016746701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 05:10:16.9587272 +0300 MSK m=+0.030074601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 05:14:11.7440113 +0300 MSK m=+860.384643101
+
+ERROR:
+error during execution process:
+     Jun 05 05:00:26.251  INFO checking if backend 'origin_0' is up
+     Jun 05 05:00:27.490  INFO backend 'origin_0' is up
+     Jun 05 05:00:27.490  INFO Listening on http://127.0.0.1:7676
+     
+
+signal: killed
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+

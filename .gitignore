@@ -16,4 +16,4 @@ Projects/
 .gem/
 .aws/
 .azure/
-.cargo/
+.cargo/**
