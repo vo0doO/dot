@@ -1893,3 +1893,1101 @@ LINE:
 
 ------------------------------
 
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 07:40:18.9781681 +0300 MSK m=+0.014538001
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 08:24:44.2405069 +0300 MSK m=+0.017043301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute init--directoryfastly
+
+TIMESTAMP:
+2022-06-05 08:31:51.5511128 +0300 MSK m=+0.024725101
+
+ERROR:
+expected command but got init--directoryfastly
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute init --directory fastly
+
+TIMESTAMP:
+2022-06-05 08:32:03.8367045 +0300 MSK m=+0.021818601
+
+ERROR:
+open /home/vo0u/Projects/fastly/fastly: no such file or directory
+
+FILE:
+/pkg/commands/compute/init.go
+
+LINE:
+84
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute init --directory fastly-wasm
+
+TIMESTAMP:
+2022-06-05 08:32:44.5143824 +0300 MSK m=+0.016220501
+
+ERROR:
+open /home/vo0u/Projects/fastly/fastly-wasm: no such file or directory
+
+FILE:
+/pkg/commands/compute/init.go
+
+LINE:
+84
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute init
+
+TIMESTAMP:
+2022-06-05 08:33:40.1254299 +0300 MSK m=+0.017047601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 08:34:10.7846058 +0300 MSK m=+30.676305701
+
+ERROR:
+stat https://github.com/fastly/compute-starter-kit-assemblyscript-default: no such file or directory
+
+FILE:
+/pkg/commands/compute/init.go
+
+LINE:
+532
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 08:35:56.8840061 +0300 MSK m=+0.033531701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 08:38:21.7591585 +0300 MSK m=+0.067544301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 09:00:00.974911 +0300 MSK m=+24.659512901
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 09:00:33.994315 +0300 MSK m=+24.250469301
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+TIMESTAMP:
+2022-06-05 09:00:38.0255797 +0300 MSK m=+28.281734101
+
+ERROR:
+404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+648
+
+
+  Package Name: fastly-wasm
+
+TIMESTAMP:
+2022-06-05 09:00:38.0260534 +0300 MSK m=+28.282208201
+
+ERROR:
+error creating service: 404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+586
+
+
+  Package name: fastly-wasm
+
+TIMESTAMP:
+2022-06-05 09:00:38.0260778 +0300 MSK m=+28.282232401
+
+ERROR:
+error creating service: 404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/publish.go
+
+LINE:
+130
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 09:01:53.5092082 +0300 MSK m=+30.011870401
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+TIMESTAMP:
+2022-06-05 09:02:29.6599524 +0300 MSK m=+66.164020601
+
+ERROR:
+404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+648
+
+
+  Package Name: fastly-wasm
+
+TIMESTAMP:
+2022-06-05 09:02:29.6600389 +0300 MSK m=+66.164107201
+
+ERROR:
+error creating service: 404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+586
+
+
+  Package name: fastly-wasm
+
+TIMESTAMP:
+2022-06-05 09:02:29.6600459 +0300 MSK m=+66.164114201
+
+ERROR:
+error creating service: 404 - Not Found:
+
+    Title:  Record not found
+    Detail: Cannot find 'service'
+
+FILE:
+/pkg/commands/compute/publish.go
+
+LINE:
+130
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 09:03:26.3724614 +0300 MSK m=+24.306388301
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute build
+
+TIMESTAMP:
+2022-06-05 10:00:16.9608856 +0300 MSK m=+5.714771901
+
+ERROR:
+error during execution process:
+
+ERROR TS2355: A function whose declared type is not 'void' must return a value.
+
+ function main(req: Request): Response {
+                              ~~~~~~~~
+ in assembly/index.ts(12,30)
+
+FAILURE 1 compile error(s)
+
+FILE:
+/pkg/commands/compute/language_assemblyscript.go
+
+LINE:
+127
+
+
+TIMESTAMP:
+2022-06-05 10:00:16.9609181 +0300 MSK m=+5.714804301
+
+ERROR:
+error during execution process:
+
+ERROR TS2355: A function whose declared type is not 'void' must return a value.
+
+ function main(req: Request): Response {
+                              ~~~~~~~~
+ in assembly/index.ts(12,30)
+
+FAILURE 1 compile error(s)
+
+FILE:
+/pkg/commands/compute/build.go
+
+LINE:
+214
+
+
+  Language: assemblyscript
+
+TIMESTAMP:
+2022-06-05 10:00:16.9609274 +0300 MSK m=+5.714813601
+
+ERROR:
+error during execution process:
+
+ERROR TS2355: A function whose declared type is not 'void' must return a value.
+
+ function main(req: Request): Response {
+                              ~~~~~~~~
+ in assembly/index.ts(12,30)
+
+FAILURE 1 compile error(s)
+
+FILE:
+/pkg/commands/compute/build.go
+
+LINE:
+84
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve assembly
+
+TIMESTAMP:
+2022-06-05 10:15:52.9308295 +0300 MSK m=+0.020247701
+
+ERROR:
+unexpected 'assembly'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 10:19:43.2531024 +0300 MSK m=+0.012582201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly serve
+
+TIMESTAMP:
+2022-06-05 10:20:22.444151 +0300 MSK m=+0.014060001
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 10:20:22.4496751 +0300 MSK m=+0.019584201
+
+ERROR:
+expected command but got serve
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash serve a
+
+TIMESTAMP:
+2022-06-05 10:20:27.0936428 +0300 MSK m=+0.020057301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-bash serve a
+
+TIMESTAMP:
+2022-06-05 10:20:27.9508194 +0300 MSK m=+0.019661101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 10:20:40.96792 +0300 MSK m=+0.012442201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 10:20:40.9727044 +0300 MSK m=+0.017226901
+
+ERROR:
+error reading package manifest
+
+FILE:
+/pkg/commands/compute/build.go
+
+LINE:
+96
+
+
+TIMESTAMP:
+2022-06-05 10:20:40.9727396 +0300 MSK m=+0.017262001
+
+ERROR:
+error reading package manifest
+
+FILE:
+/pkg/commands/compute/build.go
+
+LINE:
+84
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve -watch
+
+TIMESTAMP:
+2022-06-05 10:21:04.3721291 +0300 MSK m=+0.024517001
+
+ERROR:
+unknown short flag '-w'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve -w
+
+TIMESTAMP:
+2022-06-05 10:21:09.6547403 +0300 MSK m=+0.018989701
+
+ERROR:
+unknown short flag '-w'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 10:22:42.7032227 +0300 MSK m=+88.038971301
+
+ERROR:
+error during execution process:
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:22:18.931 ERROR request{id=0}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:22:22.072 ERROR request{id=1}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:22:39.894 ERROR request{id=2}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --file=bin/main.wasm --addr=127.0.0.1:7676 --watch --include-source
+
+TIMESTAMP:
+2022-06-05 10:25:49.8153665 +0300 MSK m=+146.555793101
+
+ERROR:
+error during execution process:
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:24:03.992 ERROR request{id=0}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:24:10.698 ERROR request{id=1}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:24:35.737 ERROR request{id=2}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --file=bin/main.wasm --addr=127.0.0.1:7676 --watch
+
+TIMESTAMP:
+2022-06-05 10:29:26.9476109 +0300 MSK m=+72.783387401
+
+ERROR:
+error during execution process:
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:28:50.941 ERROR request{id=0}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:28:57.199 ERROR request{id=1}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:28:59.774 ERROR request{id=2}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --addr=127.0.0.1:7676 --watch
+
+TIMESTAMP:
+2022-06-05 10:31:15.4314375 +0300 MSK m=+91.376031901
+
+ERROR:
+error during execution process:
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:27.629 ERROR request{id=0}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:29.446 ERROR request{id=1}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:30.352 ERROR request{id=2}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:31.178 ERROR request{id=3}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:31.910 ERROR request{id=4}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:32.582 ERROR request{id=5}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:33.261 ERROR request{id=6}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:34.963 ERROR request{id=7}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:56.030 ERROR request{id=8}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:57.096 ERROR request{id=9}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:57.516 ERROR request{id=10}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:57.881 ERROR request{id=11}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:58.009 ERROR request{id=12}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:30:58.659 ERROR request{id=13}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --addr=127.0.0.1:7676 --watch
+
+TIMESTAMP:
+2022-06-05 10:34:14.3365616 +0300 MSK m=+173.809579601
+
+ERROR:
+error during execution process:
+     Jun 05 10:34:13.206  WARN no backend definitions found in
+     /home/vo0u/Projects/fastly-wasm/fastly.toml
+     Jun 05 10:34:13.206  INFO Listening on http://127.0.0.1:7676
+     
+
+signal: killed
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve --file=bin/main.wasm --addr=127.0.0.1:7676 --include-source --skip-build --skip-verification
+
+TIMESTAMP:
+2022-06-05 10:36:29.7454876 +0300 MSK m=+55.415591801
+
+ERROR:
+error during execution process:
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:36:00.868 ERROR request{id=0}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+abort: Could not send the request in ~lib/@fastly/as-compute/fastly/fastly-upstream/fastly-upstream-request.ts(159:7)
+Jun 05 10:36:06.790 ERROR request{id=1}: WebAssembly trapped: exit with invalid exit status outside of [0..126)
+wasm backtrace:
+    0:  0x74b - <unknown>!<wasm function 27>
+    1: 0x55ea - <unknown>!<wasm function 92>
+    2: 0x63c0 - <unknown>!<wasm function 99>
+    3: 0x2d18 - <unknown>!<wasm function 73>
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:05:24.8624652 +0300 MSK m=+0.176942301
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:08:26.9386012 +0300 MSK m=+0.015519201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:08:45.3940177 +0300 MSK m=+0.031715901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:08:46.7393613 +0300 MSK m=+0.044582701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:09:00.5814544 +0300 MSK m=+0.014013201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 18:09:08.7719471 +0300 MSK m=+0.009104201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 20:23:36.9827889 +0300 MSK m=+0.108111401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 20:23:51.6036162 +0300 MSK m=+0.011592601
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 20:26:18.5752175 +0300 MSK m=+0.020317401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+

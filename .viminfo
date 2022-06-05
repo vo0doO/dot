@@ -10,14 +10,21 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/jo
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1654403511,,"wq"
+|2,0,1654454287,,"wq"
 :q
-|2,0,1654403054,,"q"
+|2,0,1654406055,,"q"
+:terminal
+|2,0,1654405893,,"terminal"
+:w
+|2,0,1654405888,,"w"
 :Pexplore
 |2,0,1654402993,,"Pexplore"
 :Texplore
@@ -26,16 +33,16 @@ $
 |2,0,1654395322,,"exit"
 :ew
 |2,0,1654395305,,"ew"
-:terminal
-|2,0,1654395016,,"terminal"
-:w
-|2,0,1654394996,,"w"
 :q!
 |2,0,1654177078,,"q!"
 :wq!
 |2,0,1654177063,,"wq!"
 
 # Search String History (newest to oldest):
+?/jo
+|2,1,1654405664,47,"jo"
+?/.ssh
+|2,1,1654405142,47,".ssh"
 ? @$
 |2,1,1654402968,,"@$"
 ??\a
@@ -48,232 +55,289 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1654405259," "
 
 # File marks:
-'0  11  12  ~/.config/fontconfig/donf.d
-|4,48,11,12,1654403511,"~/.config/fontconfig/donf.d"
-'1  9  33  ~/Projects/fastly/.vimrc
-|4,49,9,33,1654403088,"~/Projects/fastly/.vimrc"
-'2  12  103  ~/Projects/fastly/.vimrc
-|4,50,12,103,1654403071,"~/Projects/fastly/.vimrc"
-'3  12  103  ~/Projects/fastly/.vimrc
-|4,51,12,103,1654403071,"~/Projects/fastly/.vimrc"
-'4  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,52,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
-'5  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,53,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
-'6  44  1  ~/.zshrc
-|4,54,44,1,1654395403,"~/.zshrc"
-'7  44  1  ~/.zshrc
-|4,55,44,1,1654395403,"~/.zshrc"
-'8  19  6  ~/.gitignore
-|4,56,19,6,1654395322,"~/.gitignore"
-'9  19  6  ~/.gitignore
-|4,57,19,6,1654395322,"~/.gitignore"
+'0  4  25  ~/.gitignore
+|4,48,4,25,1654454287,"~/.gitignore"
+'1  12  16  ~/.zshrc
+|4,49,12,16,1654406055,"~/.zshrc"
+'2  13  16  ~/.zshrc
+|4,50,13,16,1654406050,"~/.zshrc"
+'3  13  16  ~/.zshrc
+|4,51,13,16,1654406050,"~/.zshrc"
+'4  13  15  ~/.zshrc
+|4,52,13,15,1654406006,"~/.zshrc"
+'5  13  15  ~/.zshrc
+|4,53,13,15,1654406006,"~/.zshrc"
+'6  13  24  ~/.zshrc
+|4,54,13,24,1654405797,"~/.zshrc"
+'7  13  24  ~/.zshrc
+|4,55,13,24,1654405797,"~/.zshrc"
+'8  13  24  ~/.zshrc
+|4,56,13,24,1654405797,"~/.zshrc"
+'9  13  24  ~/.zshrc
+|4,57,13,24,1654405797,"~/.zshrc"
 
 # Jumplist (newest first):
--'  11  12  ~/.config/fontconfig/donf.d
-|4,39,11,12,1654403511,"~/.config/fontconfig/donf.d"
--'  1  0  ~/.config/fontconfig/donf.d
-|4,39,1,0,1654403506,"~/.config/fontconfig/donf.d"
--'  9  33  ~/Projects/fastly/.vimrc
-|4,39,9,33,1654403088,"~/Projects/fastly/.vimrc"
--'  9  33  ~/Projects/fastly/.vimrc
-|4,39,9,33,1654403088,"~/Projects/fastly/.vimrc"
--'  12  103  ~/Projects/fastly/.vimrc
-|4,39,12,103,1654403074,"~/Projects/fastly/.vimrc"
--'  12  103  ~/Projects/fastly/.vimrc
-|4,39,12,103,1654403074,"~/Projects/fastly/.vimrc"
--'  12  103  ~/Projects/fastly/.vimrc
-|4,39,12,103,1654403071,"~/Projects/fastly/.vimrc"
--'  12  103  ~/Projects/fastly/.vimrc
-|4,39,12,103,1654403071,"~/Projects/fastly/.vimrc"
--'  1  0  ~/Projects/fastly/.vimrc
-|4,39,1,0,1654403063,"~/Projects/fastly/.vimrc"
--'  1  0  ~/Projects/fastly/.vimrc
-|4,39,1,0,1654403063,"~/Projects/fastly/.vimrc"
--'  1  0  ~/Projects/fastly/.vimrc
-|4,39,1,0,1654403063,"~/Projects/fastly/.vimrc"
--'  1  0  ~/Projects/fastly/.vimrc
-|4,39,1,0,1654403063,"~/Projects/fastly/.vimrc"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  16  13  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,16,13,1654397550,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  1  0  ~/Projects/geo-ip-api-at-the-edge/fastly.toml
-|4,39,1,0,1654396526,"~/Projects/geo-ip-api-at-the-edge/fastly.toml"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  44  1  ~/.zshrc
-|4,39,44,1,1654395403,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  6  39  ~/.zshrc
-|4,39,6,39,1654395388,"~/.zshrc"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
--'  19  6  ~/.gitignore
-|4,39,19,6,1654395322,"~/.gitignore"
+-'  4  25  ~/.gitignore
+|4,39,4,25,1654454287,"~/.gitignore"
+-'  20  6  ~/.gitignore
+|4,39,20,6,1654454254,"~/.gitignore"
+-'  12  16  ~/.zshrc
+|4,39,12,16,1654406055,"~/.zshrc"
+-'  12  16  ~/.zshrc
+|4,39,12,16,1654406055,"~/.zshrc"
+-'  13  16  ~/.zshrc
+|4,39,13,16,1654406053,"~/.zshrc"
+-'  13  16  ~/.zshrc
+|4,39,13,16,1654406053,"~/.zshrc"
+-'  13  16  ~/.zshrc
+|4,39,13,16,1654406050,"~/.zshrc"
+-'  13  16  ~/.zshrc
+|4,39,13,16,1654406050,"~/.zshrc"
+-'  13  15  ~/.zshrc
+|4,39,13,15,1654406006,"~/.zshrc"
+-'  13  15  ~/.zshrc
+|4,39,13,15,1654406006,"~/.zshrc"
+-'  13  24  ~/.zshrc
+|4,39,13,24,1654405797,"~/.zshrc"
+-'  13  24  ~/.zshrc
+|4,39,13,24,1654405797,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405637,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405637,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405632,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405632,"~/.zshrc"
+-'  13  18  ~/.zshrc
+|4,39,13,18,1654405590,"~/.zshrc"
+-'  13  18  ~/.zshrc
+|4,39,13,18,1654405590,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405559,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405559,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405524,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405524,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405520,"~/.zshrc"
+-'  13  14  ~/.zshrc
+|4,39,13,14,1654405520,"~/.zshrc"
+-'  13  15  ~/.zshrc
+|4,39,13,15,1654405444,"~/.zshrc"
+-'  13  15  ~/.zshrc
+|4,39,13,15,1654405444,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405370,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405286,"~/.zshrc"
+-'  72  1  ~/.zshrc
+|4,39,72,1,1654405286,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405238,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405212,"~/.zshrc"
+-'  260  6  ~/.zshrc
+|4,39,260,6,1654405212,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
+-'  395  0  ~/.zshrc
+|4,39,395,0,1654405166,"~/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1654454285	0
+	"	4	25
+	^	4	26
+	.	4	25
+	+	20	8
+	+	4	25
+
+> ~/.zshrc
+	*	1654406054	0
+	"	12	16
+	^	13	17
+	.	13	16
+	+	10	18
+	+	49	0
+	+	82	0
+	+	75	1
+	+	73	16
+	+	74	3
+	+	110	0
+	+	109	0
+	+	117	99
+	+	111	0
+	+	113	0
+	+	111	16
+	+	112	15
+	+	74	1
+	+	10	21
+	+	43	0
+	+	118	314
+	+	118	0
+	+	118	313
+	+	119	0
+	+	10	21
+	+	16	0
+	+	10	16
+	+	6	39
+	+	43	1
+	+	34	0
+	+	7	0
+	+	384	0
+	+	385	29
+	+	386	0
+	+	395	0
+	+	260	7
+	+	71	1
+	+	72	1
+	+	46	0
+	+	13	16
+
+> ~/.ssh/id_rsa
+	*	1654405005	0
+	"	1	0
 
 > ~/.config/fontconfig/donf.d
 	*	1654403510	0
@@ -296,44 +360,6 @@ $
 > ~/Projects/geo-ip-api-at-the-edge/fastly.toml
 	*	1654396533	0
 	"	16	13
-
-> ~/.zshrc
-	*	1654395401	0
-	"	44	1
-	^	44	2
-	.	44	1
-	+	11	18
-	+	50	0
-	+	83	0
-	+	76	1
-	+	74	16
-	+	75	3
-	+	111	0
-	+	110	0
-	+	118	99
-	+	112	0
-	+	114	0
-	+	112	16
-	+	113	15
-	+	75	1
-	+	11	21
-	+	44	0
-	+	119	314
-	+	119	0
-	+	119	313
-	+	120	0
-	+	11	21
-	+	17	0
-	+	11	16
-	+	6	39
-	+	44	1
-
-> ~/.gitignore
-	*	1654395319	0
-	"	19	6
-	^	19	9
-	.	19	8
-	+	19	8
 
 > /usr/share/vim/vim81/doc/help.txt
 	*	1654395315	0

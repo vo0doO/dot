@@ -1,7 +1,7 @@
 config_version = 2
 
 [cli]
-  last_checked = "2022-06-05T05:54:22+03:00"
+  last_checked = "2022-06-05T10:35:19+03:00"
   remote_config = "https://developer.fastly.com/api/internal/cli-config"
   ttl = "5m"
   version = "3.0.0"
