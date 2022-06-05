@@ -1,6 +1,7 @@
 .vscode/
 .vscode-server/
 golang/
+.vscode-remote-containers/
 gopath/
 Projects/
 .poetry/
