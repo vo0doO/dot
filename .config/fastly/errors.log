@@ -1514,3 +1514,382 @@ LINE:
 
 ------------------------------
 
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 05:16:55.6155391 +0300 MSK m=+0.035411401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute serve
+
+TIMESTAMP:
+2022-06-05 05:34:10.5493265 +0300 MSK m=+374.140151401
+
+ERROR:
+error during execution process:
+
+Jun 05 05:29:39.441 ERROR request{id=0}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:29:39.888 ERROR request{id=1}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:29:50.399 ERROR request{id=2}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:29:50.476 ERROR request{id=3}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:30:24.081 ERROR request{id=4}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:30:24.144 ERROR request{id=5}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:33:38.732 ERROR request{id=6}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:33:39.217 ERROR request{id=7}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:34:05.549 ERROR request{id=8}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+Jun 05 05:34:06.051 ERROR request{id=9}: Hostcall yielded an error: GeoIP is not currently supported for local testing
+Exception while dispatching FetchEvent
+: (new Error("get_geo_info: Generic error value. This means that some unexpected error occurred during a hostcall. - Fastly error code 1\n", "<stdin>", 1))
+  @<stdin>:1:90
+  @<stdin>:1:329
+
+FILE:
+/pkg/commands/compute/serve.go
+
+LINE:
+474
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 05:34:26.4968505 +0300 MSK m=+4.204932301
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+TIMESTAMP:
+2022-06-05 05:34:30.8816819 +0300 MSK m=+8.589764601
+
+ERROR:
+409 - Conflict:
+
+    Title:  Duplicate record
+    Detail: Name 'get-geo' already taken for customer '2MYsRjS5C10D92ft05MEt4'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+648
+
+
+  Package Name: get-geo
+
+TIMESTAMP:
+2022-06-05 05:34:30.8819586 +0300 MSK m=+8.590040801
+
+ERROR:
+error creating service: 409 - Conflict:
+
+    Title:  Duplicate record
+    Detail: Name 'get-geo' already taken for customer '2MYsRjS5C10D92ft05MEt4'
+
+FILE:
+/pkg/commands/compute/deploy.go
+
+LINE:
+586
+
+
+  Package name: get-geo
+
+TIMESTAMP:
+2022-06-05 05:34:30.8819862 +0300 MSK m=+8.590068201
+
+ERROR:
+error creating service: 409 - Conflict:
+
+    Title:  Duplicate record
+    Detail: Name 'get-geo' already taken for customer '2MYsRjS5C10D92ft05MEt4'
+
+FILE:
+/pkg/commands/compute/publish.go
+
+LINE:
+130
+
+
+------------------------------
+
+
+COMMAND:
+fastly compute publish
+
+TIMESTAMP:
+2022-06-05 05:34:43.5082812 +0300 MSK m=+4.182701401
+
+ERROR:
+error reading service: no service ID found
+
+FILE:
+/pkg/cmd/cmd.go
+
+LINE:
+171
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 05:54:08.9325961 +0300 MSK m=+0.012546901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly version
+
+TIMESTAMP:
+2022-06-05 05:54:21.84536 +0300 MSK m=+0.013587801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile create -t
+
+TIMESTAMP:
+2022-06-05 05:55:39.0318564 +0300 MSK m=+0.014528101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 05:55:39.036822 +0300 MSK m=+0.019494301
+
+ERROR:
+expected argument for flag '-t'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile create --tpken
+
+TIMESTAMP:
+2022-06-05 05:55:48.0379 +0300 MSK m=+0.014723101
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 05:55:48.0429527 +0300 MSK m=+0.019776301
+
+ERROR:
+unknown long flag '--tpken'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile create --token
+
+TIMESTAMP:
+2022-06-05 05:55:53.0505456 +0300 MSK m=+0.014064501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+TIMESTAMP:
+2022-06-05 05:55:53.0543488 +0300 MSK m=+0.017868401
+
+ERROR:
+expected argument for flag '--token'
+
+FILE:
+/pkg/app/usage.go
+
+LINE:
+560
+
+
+------------------------------
+
+
+COMMAND:
+fastly profile create --token=
+
+TIMESTAMP:
+2022-06-05 05:56:03.3723869 +0300 MSK m=+0.017212701
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 05:57:56.6221258 +0300 MSK m=+0.051218501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-05 07:27:14.7421748 +0300 MSK m=+0.016749901
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
