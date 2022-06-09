@@ -20,11 +20,11 @@ ZSH_THEME="josh"
 ZSH_THEME_RANDOM_CANDIDATES=("robbyrussell" "essembeh" "kardan" "rgm" "Soliah" "evan" "kennethreitz" "risto" "adben" "fino-theme" "kiwi" "rixius" "af-magic" "fino" "kolo" "rkj-repos" "afowler" "fishy" "kphoen" "rkj" "lazz" "lambda" "fletcherm" "linuxonly" "sammy" "alanpeabody" "fox" "lukerandall" "simonoff" "amuse" "frisk" "macovsky-theme" "simple" "apple" "frontcube" "macovsky" "skaro" "arrow" "funky" "maran" "smt" "aussiegeek" "fwalch" "mgutz" "sonicradish" "avit" "gallifrey" "mh" "sorin" "awesomepanda" "gallois" "michelebologna" "sporty_256" "bira" "garyblessington" "mikeh" "steeef" "blinks" "gentoo" "miloshadzic" "strug" "bureau" "geoffgarside" "minimal" "sunaku" "candy-theme" "gianu" "mira" "sunrise" "candy" "gnzh" "mlh" "superjarin" "clean" "gozilla" "mortalscumbag" "suvash" "cloud" "half-theme" "mrtazz" "takashiyoshida" "crcandy" "humza" "murilasso" "terminalparty" "crunch" "imajes" "muse" "theunraveler" "cypher" "intheloop" "nanotech" "tjkirch" "dallas" "itchy" "nebirhos" "tjkirch_mod" "darkblood" "jaischeema" "nicoulaj" "tonotdo" "daveverwer" "jbergantine" "norm" "trapd00r" "dieter" "jispwoso" "obraun" "wedisagree" "dogenpunk" "jnrowe" "peepcode" "wezm"+ "dpoggi" "philips" "wezm" "dst" "josh" "pmcgee" "wuffers" "dstufft" "jreese" "pygmalion-virtualenv" "xiong-chiamiov-plus" "duellj" "jtriley" "pygmalion" "xiong-chiamiov" "eastwood" "juanghurtado" "random" "ys" "edvardm" "junkfood" "re5et" "zhann" "emotty" "kafeitu" "refined")
 
 # Uncomment the following line to use case-sensitive completion.
-CASE_SENSITIVE="true"
+# CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-HYPHEN_INSENSITIVE="true"
+# HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
 zstyle ':omz:update' mode disabled # disable automatic updates
@@ -44,7 +44,7 @@ zstyle ':omz:update' frequency 13
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -320,7 +320,7 @@ plugins=(
   singlechar
   spring
   sprunge
-  ssh-agent
+  # ssh-agent
   stack
   sublime
   sublime-merge
@@ -414,8 +414,14 @@ alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
 alias h="heroku"
 alias p="python3"
-
+alias d="docker"
+alias dk="docker-compose"
+alias k="kubectl"
 export NVM_DIR="$HOME/.nvm"
+source <(kubectl completion zsh)  # setup autocomplete in zsh into the current shell
+echo "[[ $commands[kubectl] ]] && source <(kubectl completion zsh)" >> ~/.zshrc # add autocomplete permanently to your zsh shell
 
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completio
+
+[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)

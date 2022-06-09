@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Config
+clusters:
+- name: "clust"
+  cluster:
+    server: "https://k8saas.timeweb.com/k8s/clusters/c-g6hp4"
+
+users:
+- name: "clust"
+  user:
+    token: "kubeconfig-u-8nf27gbcm9:sk728bwkk8fgvqb75cqqw6fkg2fd888gd8dk5hcxt9ghk5dn5jzkpx"
+
+
+contexts:
+- name: "clust"
+  context:
+    user: "clust"
+    cluster: "clust"
+
+current-context: "clust"

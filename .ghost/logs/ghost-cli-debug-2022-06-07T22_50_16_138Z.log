@@ -1,0 +1,14 @@
+Debug Information:
+    OS: Ubuntu, v20.04.4 LTS
+    Node Version: v16.15.1
+    Ghost Version: 5.2.2
+    Ghost-CLI Version: 1.21.0
+    Environment: development
+    Command: 'ghost import ../ghost-v5-on-heroku/backup.ghost'
+An error occurred.
+Message: 'Response code 415 (Unsupported Media Type)'
+
+Stack: HTTPError: Response code 415 (Unsupported Media Type)
+    at EventEmitter.<anonymous> (/home/vo0u/.nvm/versions/node/v16.15.1/lib/node_modules/ghost-cli/node_modules/got/source/as-promise.js:74:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+Path: /ghost/api/admin/db/

@@ -18,17 +18,17 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1654454287,,"wq"
-:q
-|2,0,1654406055,,"q"
+|2,0,1654738587,,"wq"
 :terminal
-|2,0,1654405893,,"terminal"
+|2,0,1654602422,,"terminal"
+:q
+|2,0,1654460379,,"q"
+:Texplore
+|2,0,1654460355,,"Texplore"
 :w
 |2,0,1654405888,,"w"
 :Pexplore
 |2,0,1654402993,,"Pexplore"
-:Texplore
-|2,0,1654402968,,"Texplore"
 :exit
 |2,0,1654395322,,"exit"
 :ew
@@ -39,12 +39,12 @@ $
 |2,0,1654177063,,"wq!"
 
 # Search String History (newest to oldest):
+? @$
+|2,1,1654460357,,"@$"
 ?/jo
 |2,1,1654405664,47,"jo"
 ?/.ssh
 |2,1,1654405142,47,".ssh"
-? @$
-|2,1,1654402968,,"@$"
 ??\a
 |2,1,1654395007,63,"\\a"
 
@@ -55,249 +55,244 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
 	 
-|3,1,36,0,1,0,1654405259," "
+|3,1,0,0,1,0,1654460359," "
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1654405259," "
 
 # File marks:
-'0  4  25  ~/.gitignore
-|4,48,4,25,1654454287,"~/.gitignore"
-'1  12  16  ~/.zshrc
-|4,49,12,16,1654406055,"~/.zshrc"
-'2  13  16  ~/.zshrc
-|4,50,13,16,1654406050,"~/.zshrc"
-'3  13  16  ~/.zshrc
-|4,51,13,16,1654406050,"~/.zshrc"
-'4  13  15  ~/.zshrc
-|4,52,13,15,1654406006,"~/.zshrc"
-'5  13  15  ~/.zshrc
-|4,53,13,15,1654406006,"~/.zshrc"
-'6  13  24  ~/.zshrc
-|4,54,13,24,1654405797,"~/.zshrc"
-'7  13  24  ~/.zshrc
-|4,55,13,24,1654405797,"~/.zshrc"
-'8  13  24  ~/.zshrc
-|4,56,13,24,1654405797,"~/.zshrc"
-'9  13  24  ~/.zshrc
-|4,57,13,24,1654405797,"~/.zshrc"
+'0  420  0  ~/.zshrc
+|4,48,420,0,1654738587,"~/.zshrc"
+'1  10  62  ~/Projects/ghost/config.development.json
+|4,49,10,62,1654642620,"~/Projects/ghost/config.development.json"
+'2  418  7  ~/.zshrc
+|4,50,418,7,1654607010,"~/.zshrc"
+'3  418  7  ~/.zshrc
+|4,51,418,7,1654607010,"~/.zshrc"
+'4  5  1  ~/.zshrc
+|4,52,5,1,1654606927,"~/.zshrc"
+'5  5  1  ~/.zshrc
+|4,53,5,1,1654606927,"~/.zshrc"
+'6  5  1  ~/.zshrc
+|4,54,5,1,1654606927,"~/.zshrc"
+'7  5  1  ~/.zshrc
+|4,55,5,1,1654606927,"~/.zshrc"
+'8  418  24  ~/.zshrc
+|4,56,418,24,1654606636,"~/.zshrc"
+'9  418  24  ~/.zshrc
+|4,57,418,24,1654606636,"~/.zshrc"
 
 # Jumplist (newest first):
--'  4  25  ~/.gitignore
-|4,39,4,25,1654454287,"~/.gitignore"
--'  20  6  ~/.gitignore
-|4,39,20,6,1654454254,"~/.gitignore"
--'  12  16  ~/.zshrc
-|4,39,12,16,1654406055,"~/.zshrc"
--'  12  16  ~/.zshrc
-|4,39,12,16,1654406055,"~/.zshrc"
--'  13  16  ~/.zshrc
-|4,39,13,16,1654406053,"~/.zshrc"
--'  13  16  ~/.zshrc
-|4,39,13,16,1654406053,"~/.zshrc"
--'  13  16  ~/.zshrc
-|4,39,13,16,1654406050,"~/.zshrc"
--'  13  16  ~/.zshrc
-|4,39,13,16,1654406050,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1654406006,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1654406006,"~/.zshrc"
--'  13  24  ~/.zshrc
-|4,39,13,24,1654405797,"~/.zshrc"
--'  13  24  ~/.zshrc
-|4,39,13,24,1654405797,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405637,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405637,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405632,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405632,"~/.zshrc"
--'  13  18  ~/.zshrc
-|4,39,13,18,1654405590,"~/.zshrc"
--'  13  18  ~/.zshrc
-|4,39,13,18,1654405590,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405559,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405559,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405524,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405524,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405520,"~/.zshrc"
--'  13  14  ~/.zshrc
-|4,39,13,14,1654405520,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1654405444,"~/.zshrc"
--'  13  15  ~/.zshrc
-|4,39,13,15,1654405444,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405370,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405286,"~/.zshrc"
--'  72  1  ~/.zshrc
-|4,39,72,1,1654405286,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405238,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405212,"~/.zshrc"
--'  260  6  ~/.zshrc
-|4,39,260,6,1654405212,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
--'  395  0  ~/.zshrc
-|4,39,395,0,1654405166,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654607010,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654607010,"~/.zshrc"
+-'  5  1  ~/.zshrc
+|4,39,5,1,1654606947,"~/.zshrc"
+-'  5  1  ~/.zshrc
+|4,39,5,1,1654606947,"~/.zshrc"
+-'  5  1  ~/.zshrc
+|4,39,5,1,1654606947,"~/.zshrc"
+-'  5  1  ~/.zshrc
+|4,39,5,1,1654606927,"~/.zshrc"
+-'  5  1  ~/.zshrc
+|4,39,5,1,1654606927,"~/.zshrc"
+-'  418  24  ~/.zshrc
+|4,39,418,24,1654606888,"~/.zshrc"
+-'  418  24  ~/.zshrc
+|4,39,418,24,1654606888,"~/.zshrc"
+-'  418  24  ~/.zshrc
+|4,39,418,24,1654606636,"~/.zshrc"
+-'  418  24  ~/.zshrc
+|4,39,418,24,1654606636,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  1  ~/.zshrc
+|4,39,1,1,1654606556,"~/.zshrc"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
+|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  5  55  ~/Projects/pay7/Dockerfile
+|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
-> ~/.gitignore
-	*	1654454285	0
-	"	4	25
-	^	4	26
-	.	4	25
-	+	20	8
-	+	4	25
-
 > ~/.zshrc
-	*	1654406054	0
-	"	12	16
-	^	13	17
-	.	13	16
+	*	1654738586	0
+	"	420	0
+	^	420	0
+	.	419	15
 	+	10	18
 	+	49	0
 	+	82	0
@@ -334,6 +329,75 @@ $
 	+	72	1
 	+	46	0
 	+	13	16
+	+	47	1
+	+	425	98
+	+	421	0
+	+	417	16
+	+	418	23
+	+	27	1
+	+	23	1
+	+	418	7
+	+	422	127
+	+	419	15
+
+> ~/Projects/ghost/config.development.json
+	*	1654642616	0
+	"	10	62
+	^	10	63
+	.	10	63
+	+	10	63
+
+> ~/Projects/ghost-v5-on-heroku/Dockerfile
+	*	1654602603	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/Projects/pay7/Dockerfile
+	*	1654538246	0
+	"	5	55
+	^	5	56
+	.	5	55
+	+	6	42
+	+	1	18
+	+	3	3
+	+	6	0
+	+	4	0
+	+	5	3
+	+	7	3
+	+	3	4
+	+	3	113
+	+	1	19
+	+	5	54
+	+	7	4
+	+	7	0
+	+	3	0
+	+	7	48
+	+	5	55
+
+> ~/Projects/fastly/src/welcome-to-compute@edge.html
+	*	1654460359	0
+	"	1	0
+
+> ~/Projects/fastly/src/index.js
+	*	1654460335	0
+	"	49	0
+
+> ~/Projects/fastly/.vimrc
+	*	1654460244	0
+	"	9	33
+	^	12	104
+	.	12	104
+	+	12	104
+
+> ~/.gitignore
+	*	1654454285	0
+	"	4	25
+	^	4	26
+	.	4	25
+	+	20	8
+	+	4	25
 
 > ~/.ssh/id_rsa
 	*	1654405005	0
@@ -345,13 +409,6 @@ $
 	^	11	13
 	.	11	12
 	+	11	12
-
-> ~/Projects/fastly/.vimrc
-	*	1654403078	0
-	"	9	33
-	^	12	104
-	.	12	104
-	+	12	104
 
 > ~/Projects/fastly/fastly.toml
 	*	1654402979	0
