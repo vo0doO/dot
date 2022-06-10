@@ -5,7 +5,7 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=latin1
+*encoding=utf-8
 
 
 # hlsearch on (H) or off (h):
@@ -18,11 +18,25 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1654738587,,"wq"
+|2,0,1654802206,,"wq"
+:ToggleBufExplorer
+|2,0,1654802199,,"ToggleBufExplorer"
+:edit Dockerfile
+|2,0,1654796582,,"edit Dockerfile"
+:edit heroku.yml
+|2,0,1654796572,,"edit heroku.yml"
+:edit app.json
+|2,0,1654796560,,"edit app.json"
+:EditorConfigDisable
+|2,0,1654796551,,"EditorConfigDisable"
+:q
+|2,0,1654796529,,"q"
+:Explore
+|2,0,1654796510,,"Explore"
+:q!
+|2,0,1654796418,,"q!"
 :terminal
 |2,0,1654602422,,"terminal"
-:q
-|2,0,1654460379,,"q"
 :Texplore
 |2,0,1654460355,,"Texplore"
 :w
@@ -33,14 +47,12 @@ $
 |2,0,1654395322,,"exit"
 :ew
 |2,0,1654395305,,"ew"
-:q!
-|2,0,1654177078,,"q!"
 :wq!
 |2,0,1654177063,,"wq!"
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1654460357,,"@$"
+|2,1,1654796510,,"@$"
 ?/jo
 |2,1,1654405664,47,"jo"
 ?/.ssh
@@ -57,236 +69,265 @@ $
 # Registers:
 ""0	CHAR	0
 	 
-|3,1,0,0,1,0,1654460359," "
+|3,1,0,0,1,0,1654796516," "
 "-	CHAR	0
 	 
 |3,0,36,0,1,0,1654405259," "
 
 # File marks:
-'0  420  0  ~/.zshrc
-|4,48,420,0,1654738587,"~/.zshrc"
-'1  10  62  ~/Projects/ghost/config.development.json
-|4,49,10,62,1654642620,"~/Projects/ghost/config.development.json"
-'2  418  7  ~/.zshrc
-|4,50,418,7,1654607010,"~/.zshrc"
-'3  418  7  ~/.zshrc
-|4,51,418,7,1654607010,"~/.zshrc"
-'4  5  1  ~/.zshrc
-|4,52,5,1,1654606927,"~/.zshrc"
-'5  5  1  ~/.zshrc
-|4,53,5,1,1654606927,"~/.zshrc"
-'6  5  1  ~/.zshrc
-|4,54,5,1,1654606927,"~/.zshrc"
-'7  5  1  ~/.zshrc
-|4,55,5,1,1654606927,"~/.zshrc"
-'8  418  24  ~/.zshrc
-|4,56,418,24,1654606636,"~/.zshrc"
-'9  418  24  ~/.zshrc
-|4,57,418,24,1654606636,"~/.zshrc"
+'0  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
+|4,48,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
+'1  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+|4,49,3,0,1654796524,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+'2  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+|4,50,3,0,1654796524,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+'3  420  0  ~/.zshrc
+|4,51,420,0,1654738587,"~/.zshrc"
+'4  420  0  ~/.zshrc
+|4,52,420,0,1654738587,"~/.zshrc"
+'5  10  62  ~/Projects/ghost/config.development.json
+|4,53,10,62,1654642620,"~/Projects/ghost/config.development.json"
+'6  10  62  ~/Projects/ghost/config.development.json
+|4,54,10,62,1654642620,"~/Projects/ghost/config.development.json"
+'7  418  7  ~/.zshrc
+|4,55,418,7,1654607010,"~/.zshrc"
+'8  418  7  ~/.zshrc
+|4,56,418,7,1654607010,"~/.zshrc"
+'9  418  7  ~/.zshrc
+|4,57,418,7,1654607010,"~/.zshrc"
 
 # Jumplist (newest first):
+-'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
+|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
+-'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
+|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
+-'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
+|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
+-'  5  0  ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
+|4,39,5,0,1654796540,"~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
+|4,39,1,0,1654796536,"~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1"
+-'  10  2  ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
+|4,39,10,2,1654796536,"~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1"
+-'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+|4,39,3,0,1654796524,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+-'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+|4,39,3,0,1654796524,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]
+|4,39,1,0,1654796499,"~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]
+|4,39,1,0,1654796499,"~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]
+|4,39,1,0,1654796499,"~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]"
+-'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]
+|4,39,1,0,1654796499,"~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]"
 -'  420  0  ~/.zshrc
 |4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  420  0  ~/.zshrc
+|4,39,420,0,1654738587,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
+-'  418  7  ~/.zshrc
+|4,39,418,7,1654738552,"~/.zshrc"
 -'  418  7  ~/.zshrc
 |4,39,418,7,1654738552,"~/.zshrc"
 -'  10  62  ~/Projects/ghost/config.development.json
 |4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
 -'  10  62  ~/Projects/ghost/config.development.json
 |4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
+-'  10  62  ~/Projects/ghost/config.development.json
+|4,39,10,62,1654642620,"~/Projects/ghost/config.development.json"
 -'  1  0  ~/Projects/ghost/config.development.json
 |4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
 -'  1  0  ~/Projects/ghost/config.development.json
 |4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
--'  418  7  ~/.zshrc
-|4,39,418,7,1654607010,"~/.zshrc"
--'  418  7  ~/.zshrc
-|4,39,418,7,1654607010,"~/.zshrc"
--'  5  1  ~/.zshrc
-|4,39,5,1,1654606947,"~/.zshrc"
--'  5  1  ~/.zshrc
-|4,39,5,1,1654606947,"~/.zshrc"
--'  5  1  ~/.zshrc
-|4,39,5,1,1654606947,"~/.zshrc"
--'  5  1  ~/.zshrc
-|4,39,5,1,1654606927,"~/.zshrc"
--'  5  1  ~/.zshrc
-|4,39,5,1,1654606927,"~/.zshrc"
--'  418  24  ~/.zshrc
-|4,39,418,24,1654606888,"~/.zshrc"
--'  418  24  ~/.zshrc
-|4,39,418,24,1654606888,"~/.zshrc"
--'  418  24  ~/.zshrc
-|4,39,418,24,1654606636,"~/.zshrc"
--'  418  24  ~/.zshrc
-|4,39,418,24,1654606636,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  1  ~/.zshrc
-|4,39,1,1,1654606556,"~/.zshrc"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  1  18  ~/Projects/ghost-v5-on-heroku/Dockerfile
-|4,39,1,18,1654602605,"~/Projects/ghost-v5-on-heroku/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
--'  5  55  ~/Projects/pay7/Dockerfile
-|4,39,5,55,1654538255,"~/Projects/pay7/Dockerfile"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
+-'  1  0  ~/Projects/ghost/config.development.json
+|4,39,1,0,1654642599,"~/Projects/ghost/config.development.json"
 
 # History of marks within files (newest to oldest):
+
+> ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
+	*	1654802205	0
+	"	15	0
+	^	11	19
+	.	11	13
+	+	15	4
+	+	9	37
+	+	11	13
+
+> ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
+	*	1654796572	0
+	"	3	0
+
+> ~/Projects/ubuntu-desktop-on-heroku-master/app.json
+	*	1654796565	0
+	"	1	0
+
+> ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
+	*	1654796537	0
+	"	5	0
+	.	1	0
+	+	1	0
+
+> ~/Projects/ubuntu-desktop-on-heroku-master/[BufExplorer]
+	*	1654796497	0
+	"	1	0
+
+> /usr/share/vim/vim81/doc/help.txt
+	*	1654796410	0
+	"	1	0
 
 > ~/.zshrc
 	*	1654738586	0
@@ -417,10 +458,6 @@ $
 > ~/Projects/geo-ip-api-at-the-edge/fastly.toml
 	*	1654396533	0
 	"	16	13
-
-> /usr/share/vim/vim81/doc/help.txt
-	*	1654395315	0
-	"	20	8
 
 > ~/.bashrc
 	*	1654217662	0
