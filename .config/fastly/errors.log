@@ -5341,3 +5341,98 @@ LINE:
 
 ------------------------------
 
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 07:25:15.8876822 +0300 MSK m=+0.013713401
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 07:39:35.7364292 +0300 MSK m=+0.048840801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 07:39:48.7475657 +0300 MSK m=+0.022202501
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 10:34:38.1821087 +0300 MSK m=+0.040178801
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 10:56:35.1756559 +0300 MSK m=+0.112528001
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
