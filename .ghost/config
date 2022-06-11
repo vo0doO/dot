@@ -1,3 +1,7 @@
 {
-  "instances": {}
+  "instances": {
+    "ghost-local": {
+      "cwd": "/home/vo0u/Projects/ghostv"
+    }
+  }
 }

@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1654942691,,"wq"
+|2,0,1654982380,,"wq"
 :Explore
 |2,0,1654921731,,"Explore"
 :q
@@ -85,36 +85,178 @@ $
 |3,0,36,0,1,0,1654405259," "
 
 # File marks:
-'0  58  46  ~/Projects/ghost/versions/5.2.2/package.json
-|4,48,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
-'1  58  60  ~/Projects/ghost/versions/5.2.2/package.json
-|4,49,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
-'2  21  0  ~/.gitignore
-|4,50,21,0,1654937300,"~/.gitignore"
-'3  59  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,51,59,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
-'4  58  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,52,58,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
-'5  59  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,53,59,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
-'6  58  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,54,58,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
-'7  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,55,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
-'8  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,56,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
-'9  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,57,3,0,1654796524,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
+'0  62  21  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,48,62,21,1654982380,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'1  69  121  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,49,69,121,1654982133,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'2  69  121  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,50,69,121,1654982133,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'3  69  120  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,51,69,120,1654982112,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'4  69  120  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,52,69,120,1654982112,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'5  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,53,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'6  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,54,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'7  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,55,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'8  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,56,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+'9  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,57,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
 
 # Jumplist (newest first):
+-'  62  21  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,62,21,1654982380,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  69  121  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,69,121,1654982352,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  69  121  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,69,121,1654982133,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  69  120  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,69,120,1654982112,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,62,20,1654981871,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,62,20,1654981871,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  62  20  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,62,20,1654981645,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  1  0  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,1,0,1654981582,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  1  0  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,1,0,1654981582,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  1  0  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,1,0,1654981582,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
+-'  1  0  ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+|4,39,1,0,1654981582,"~/Projects/ghost-timeweb-storage-adapter-s3/package.json"
 -'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
 |4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  46  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,46,1654942691,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
 -'  58  60  ~/Projects/ghost/versions/5.2.2/package.json
 |4,39,58,60,1654941864,"~/Projects/ghost/versions/5.2.2/package.json"
 -'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
 |4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
 -'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
 |4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
+-'  59  23  ~/Projects/ghost/versions/5.2.2/package.json
+|4,39,59,23,1654941848,"~/Projects/ghost/versions/5.2.2/package.json"
 -'  21  0  ~/.gitignore
 |4,39,21,0,1654937300,"~/.gitignore"
 -'  21  0  ~/.gitignore
@@ -123,192 +265,60 @@ $
 |4,39,21,0,1654937300,"~/.gitignore"
 -'  21  0  ~/.gitignore
 |4,39,21,0,1654937300,"~/.gitignore"
--'  4  25  ~/.gitignore
-|4,39,4,25,1654937270,"~/.gitignore"
--'  4  25  ~/.gitignore
-|4,39,4,25,1654937270,"~/.gitignore"
--'  4  25  ~/.gitignore
-|4,39,4,25,1654937270,"~/.gitignore"
--'  4  25  ~/.gitignore
-|4,39,4,25,1654937270,"~/.gitignore"
--'  58  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,58,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
--'  58  23  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,58,23,1654921811,"~/Projects/ghost/versions/5.2.2/package.json"
--'  2  0  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,2,0,1654921763,"~/Projects/ghost/versions/5.2.2/package.json"
--'  2  0  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,2,0,1654921763,"~/Projects/ghost/versions/5.2.2/package.json"
--'  2  0  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,2,0,1654921763,"~/Projects/ghost/versions/5.2.2/package.json"
--'  2  0  ~/Projects/ghost/versions/5.2.2/package.json
-|4,39,2,0,1654921763,"~/Projects/ghost/versions/5.2.2/package.json"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  14  0  ~/Projects/ghost
-|4,39,14,0,1654921746,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  1  0  ~/Projects/ghost
-|4,39,1,0,1654921615,"~/Projects/ghost"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  15  0  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,15,0,1654802206,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  11  18  ~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile
-|4,39,11,18,1654802199,"~/Projects/ubuntu-desktop-on-heroku-master/Dockerfile"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  3  0  ~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml
-|4,39,3,0,1654796582,"~/Projects/ubuntu-desktop-on-heroku-master/heroku.yml"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  1  0  ~/Projects/ubuntu-desktop-on-heroku-master/app.json
-|4,39,1,0,1654796572,"~/Projects/ubuntu-desktop-on-heroku-master/app.json"
--'  5  0  ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
-|4,39,5,0,1654796540,"~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1"
--'  5  0  ~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1
-|4,39,5,0,1654796540,"~/Projects/ubuntu-desktop-on-heroku-master/NERD_tree_1"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
+-'  21  0  ~/.gitignore
+|4,39,21,0,1654937300,"~/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/Projects/ghost-timeweb-storage-adapter-s3/package.json
+	*	1654982379	0
+	"	62	21
+	^	62	22
+	.	62	21
+	+	71	54
+	+	69	121
+	+	71	40
+	+	62	21
 
 > ~/Projects/ghost/versions/5.2.2/package.json
 	*	1654942687	0
