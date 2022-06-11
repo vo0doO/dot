@@ -5322,3 +5322,22 @@ LINE:
 
 ------------------------------
 
+
+COMMAND:
+fastly --completion-script-zsh
+
+TIMESTAMP:
+2022-06-11 07:15:13.271304 +0300 MSK m=+0.040576201
+
+ERROR:
+open fastly.toml: no such file or directory
+
+FILE:
+/pkg/manifest/manifest.go
+
+LINE:
+324
+
+
+------------------------------
+
