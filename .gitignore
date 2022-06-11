@@ -18,3 +18,4 @@ Projects/
 .aws/
 .azure/
 .cargo/**
+*/node_modules/**
